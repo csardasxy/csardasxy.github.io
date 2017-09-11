@@ -62,7 +62,7 @@ body
   	line-height: 26px;
 }
 ::selection {
-  background: #0078d7;
+  background: #081017;
   color: #fff;
 }
 a:hover
@@ -110,7 +110,7 @@ a:hover
 }
 .custom-red
 {
-	color: #0078d7;
+	color: #005396;
 }
 .custom-black
 {
@@ -194,8 +194,8 @@ a.logo:hover
 {
 	font-weight: 400;
 	padding: 25px 0px;
-	background: #0087d5;
-	color: #ddd;
+	background: rgb(0, 135, 213);
+	color: #ffffff;
 	text-transform: uppercase;
 	min-height: 92px;
 }
@@ -211,12 +211,12 @@ a.logo:hover
 }
 .nav li
 {
-	color: #0078d7;
+	color: #005396;
   	border: 1px solid transparent;
 }
 .nav li:hover
 {
-	border: 1px solid #0078d7;
+	border: 1px solid #005396;
 }
 .nav-pills>li>a
 {
@@ -224,7 +224,7 @@ a.logo:hover
   	color: #ffffff;
 }
 .nav-pills>li>a:hover{
-	color: #0078d7;
+	color: #005396;
 	background: transparent;
 }
 .modified
@@ -281,7 +281,7 @@ a.logo:hover
 {
 	color: rgb(25,40,82);
 	position: absolute;
-	background: linear-gradient(to bottom, #0078d7 , #4f9bd7);
+	background: linear-gradient(to bottom, #005396 , #4f9bd7);
 	padding: 30px 35px;
 	top: -130px;
 	left: 56%;
@@ -319,7 +319,7 @@ a.logo:hover
 }
 .perc
 {
-	color: #0078d7 !important;
+	color: #005396 !important;
 }
 .border-1
 {
@@ -450,9 +450,9 @@ button.filters-button:first-child
 button.filters-button
 {
 	text-transform: capitalize;
-	background: transparent;
-	color: #feffff;
-	border: 1px solid #134679;
+	background: rgba(8, 97, 210, 0);
+	color: #ffffff;
+	border: 1px solid #ffffff;
 	outline: none;
 	margin: 25px 0px 50px;
 	padding: 5px 20px;
@@ -461,8 +461,8 @@ button.filters-button
 }
 button.active, button.filters-button:hover, button.filters-button:active, button.filters-button:focus
 {
-	color: #0078d7;
-	border: 1px solid #0078d7;
+	color: #005396;
+	border: 1px solid #005396;
 }
 .works .wrapper
 {
@@ -709,7 +709,7 @@ ul.social-icons li a
 .form-control:focus
 
 {
-  border-color: #0078d7;
+  border-color: #005396;
   outline: 0;
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(77, 163, 213,.6);
 }
@@ -759,7 +759,7 @@ footer
 }
 footer a
 {
-	color: #0078d7;
+	color: #005396;
 }
 /*=================================
 ||			Scrollbar
