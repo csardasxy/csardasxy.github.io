@@ -1,11 +1,11 @@
 <?php
-    $to      = 'test@example.com';
+    $to      = 'xiangyu2@andrew.cmu.edu';
     $email   = $_POST['email'];
 
     $name  = $_POST['name'];
     $message = $_POST['text-massage'];
 
-    $headers = 'From: http://YourUrl'. '<'.$email.'>' . "\r\n" .
+    $headers = 'From: http://csardasxy.io'. '<'.$email.'>' . "\r\n" .
         'Reply-To: '. $email . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
 
