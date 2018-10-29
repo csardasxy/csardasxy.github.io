@@ -391,6 +391,7 @@ a.logo:hover
 .works
 {
 	background: #0087d5;
+	margin:auto;
 }
 .works-item
 {
@@ -402,7 +403,7 @@ a.logo:hover
 .works-single-item
 {
 	position: relative;
-	width: 33.3333%;
+	width: 33.33333333%;
 }
 .works-single-item-hover
 {

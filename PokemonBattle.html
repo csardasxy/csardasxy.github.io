@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/star.png" type="favicon/ico" />
 
-    <title>Pokemon Battle-Sun Xiangyu's workshop</title>
+    <title>Basic UI Framework for Mobile TCG-Sun Xiangyu's workshop</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -51,25 +51,14 @@
 			<div class="demo-mainText">
 				<div class="demo-content">
 					<br></br><br></br><br></br>
-					<h2 class="section-title wow bounceInRight animated">pokemon battle</h2>
-					<p class="wow pulse animated">
-						<img class="img-responsive" src="images/Pokemon Battle/loading.jpg" alt="">	
-					</p>
+					<h2 class="section-title wow bounceInRight animated">Basic UI Framework for Mobile TCG</h2>
+					
 					<p class="wow pulse animated">
 						<a href="https://github.com/csardasxy/Application-Material/raw/master/Pokemon%20Battle.zip"><font color = "#4A84F5" size = 4>code sample download</font></a>
 					</p><br></br>
+					
 					<p class="section-paragraph wow pulse animated">
-						<i><b>Pokemon Battle</b></i> is a Fan-made 2D TCG(Trade Card Game), developed on mobile platform by cocos2d and LUA.
-	
-						In this game, players can explore the world of pokemons and experience exciting battle with other pokemon trainers. 
-						   During this period, they will get more powerful pokemons and develop their own duel tacnic.
-						
-					</p> <!-- /.section-paragraph -->
-					<p class="wow pulse animated">
-						<img class="img-responsive" src="images/Pokemon Battle/main scene.jpg" alt="">	
-					</p>
-					<p class="section-paragraph wow pulse animated">
-						As a <b>front-end game development engineer</b> intern, I worked with the art designer and game designer in the “Pokemon Battle” card game to 
+						As a <b>game client engineer</b> intern, I worked with the art designer and game designer in a game project to 
 						<b>independently complete all of the front-end page development work</b>.
 						<br></br>
 						Because of my experience in Art, Design and Programming, I am lucky to take part in <b>every aspect of the game development</b>, and also made some contributions in different degree, 
@@ -80,7 +69,7 @@
 						<img class="img-responsive" src="images/Pokemon Battle/Code Structure.jpg" alt="">	
 					</p>
 					<p class="section-paragraph wow pulse animated">
-						The main code structure in <b><i>Pokemon Battle</i></b>
+						The main code structure in the project
 					</p>
 					
 					<p class="wow pulse animated">
@@ -98,35 +87,33 @@
 					</p>
 					<br></br>
 					<p class="wow pulse animated">
-						<img class="img-responsive" src="images/Pokemon Battle/travel scene.jpg" alt="">	
+						<img class="img-responsive" src="images/Pokemon Battle/1.png" alt="">	
 					</p>
 					<p class="section-paragraph wow pulse animated">
-						All of the adventure levels in game have three difficulties: normal, medium, and difficult. 
-						By challenging adventure levels, players can obtain exp and gold coin as bonus.
+						The main system design of this TCG. The whole system is seperated into two parts: Battle System and Non-battle System.
+						
 					</p>
 					
 					<br></br>
 					<p class="wow pulse animated">
-						<img class="img-responsive" src="images/Pokemon Battle/card manage scene.jpg" alt="">
+						<img class="img-responsive" src="images/Pokemon Battle/2.png" alt="">
 					</p>
 					<p class="section-paragraph wow pulse animated">
-						The cards in <b><i>Pokemon Battle</i></b> can be categorized into two types: <b>pokemon cards</b> and <b>command cards</b>. 
-						   Both of them highly reconstruct the settings of the pokemon's world, including skills, natruals, and so on.
+						The layout design of battle field. There is only one active monster that can attack at the same time.
 					</p>
 					
 					<br></br>
 					<p class="wow pulse animated">
-						<img class="img-responsive" src="images/Pokemon Battle/battle scene.jpg" alt="">
+						<img class="img-responsive" src="images/Pokemon Battle/3.png" alt="">
 					</p>
 					<p class="section-paragraph wow pulse animated">
-						In the <b>PVP mode</b>, players can be arranged to have online battle with well-matched opponents. After their winning this duel, they can receive
-						luxury rewards, which can further strengthen their card groups.
+						The UML graph of BasePanel Class, which is the base class of other UI panels in this game.
 					</p> 
 					<p class="wow pulse animated">
-						<img class="img-responsive" src="images/Pokemon Battle/Pokemon info.jpg" alt="">
+						<img class="img-responsive" src="images/Pokemon Battle/4.png" alt="">
 					</p>
 					<p class="section-paragraph wow pulse animated">
-						Every pokemon card's evolutionary tree, weakness and resistance are carefully designed, in order to make every round in the duel filled with uncertainty.
+						The single round in battle's FSM flow graph. After one event was triggered, program will excute another check on the status.
 					</p> 
 					
 					
