@@ -188,16 +188,16 @@ a.logo:hover
 }
 
 /*=================================
-||			Navigation 
+||			gation 
 ==================================*/
 .navigationbar
 {
 	font-weight: 400;
 	padding: 25px 0px;
-	background: rgb(0, 135, 213);
-	color: #ffffff;
+	background: rgb(30, 30, 30);
+	color: #005396;
 	text-transform: uppercase;
-	min-height: 92px;
+	min-height: 60px;
 }
 #iconhideshow
 {
@@ -221,17 +221,17 @@ a.logo:hover
 .nav-pills>li>a
 {
   	border-radius: 0px;
-  	color: #ffffff;
+  	color: #0099cc;
 }
 .nav-pills>li>a:hover{
-	color: #005396;
+	color: #ffffff;
 	background: transparent;
 }
 .modified
 {
 	padding: 10px 0px;
 	transition: .5s;
-	min-height: 62px;
+	min-height: 40px;
 }
 /*=================================
 ||			5. Our Service 
