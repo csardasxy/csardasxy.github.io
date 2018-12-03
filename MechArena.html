@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/star.png" type="favicon/ico" />
 
-    <title>Basic UI Framework for Mobile TCG-Sun Xiangyu's workshop</title>
+    <title>Mech Arena-Sun Xiangyu's Portfolio</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -49,21 +49,32 @@
 			<div class="demo-mainText">
 				<div class="demo-content">
 					<br></br><br></br><br></br>
-					<h2 class="section-title wow bounceInRight animated">Basic UI Framework for Mobile TCG</h2>
-					<!--
+					<h2 class="section-title wow bounceInRight animated">Mech Arena</h2>
 					<p class="wow pulse animated">
-						<a href="https://github.com/csardasxy/Application-Material/raw/master/Pokemon%20Battle.zip"><font color = "#4A84F5" size = 4>code sample download</font></a>
+						<a href="https://csardas.itch.io/huanka"><font color = "#4A84F5" size = 4>exe file download</font></a>
 					</p><br></br>
-					-->
+					
+					<div class = "wrapper wow pulse animated">
+						<div class="workPage-content">
+							<div id="owl-demo" class="owl-carousel owl-theme">
+								<img class="img-responsive" position = "center" src="images/Mech Arena/ma1.png" alt="">	
+								<img class="img-responsive" position = "center" src="images/Mech Arena/ma2.png" alt="">	
+								<img class="img-responsive" position = "center" src="images/Mech Arena/ma3.png" alt="">	
+								<img class="img-responsive" position = "center" src="images/Mech Arena/ma4.png" alt="">	
+							</div>
+						</div>
+					</div>
+					
+					
 					<p class="section-title-s bounceInRight animated">
 						Development
 					</p>
 					<ul class="section-paragraph wow pulse animated">
-						<li>Role: Game Client Engineer Intern</li>
-						<li>Team Size: 10</li>
-						<li>Duration: 5 months</li>
-						<li>Language: LUA (Cocos2d)</li>
-						<li>Platform: iOS & Android</li>
+						<li>Role: Producer, Programmer</li>
+						<li>Team Size: 5</li>
+						<li>Duration: 3 weeks</li>
+						<li>Language: C# (Unity)</li>
+						<li>Platform: Oculus Rift</li>
 					</ul>
 					
 					<p class="section-title-s bounceInRight animated">
@@ -71,79 +82,52 @@
 					</p>
 					
 					<ul class="section-paragraph wow pulse animated">
-						<li>Developed auto path adjustment mechenism for naive guests</li>
-						<li>Partipated in the design and code realize of the UI framework</li>
-						<li>Independently complete all of the front-end page development work</li>
-						<li>Coded the different kinds of UI layout script based on the base framework</li>
+						<li>Built a runnable fast prototype fighting scene for playtesting</li>
+						<li>Applied volumetric lights in the game scene and make it usable for Oculus Rift platform</li>
+						<li>Designed and realized the main gameplay of fighting, including the attack & defend logic, states switching logic, etc.</li>
+						<li>Designed and applied robots' energy loop in the game</li>
+						<li>Coded an animated shader for the shield in the game</li>
+						<li>Composed different BGMs to match different stages of one battle</li>
 					</ul>
 					<br></br>
 					
 					<p class="section-paragraph wow pulse animated">
-						As a <b>game client engineer</b> intern, I worked with the art designer and game designer in a game project.
+						<i><b>Mech Arena</b></i> is a game developed by unity3d & C# on Oculus Rift platform. 
 						<br></br>
-						Because of my experience in Art, Design and Programming, I am lucky to take part in <b>every aspect of the game development</b>, and also made some contributions in different degree, 
-						like my improved scheme for skill display design and PVP matching interface was adopted. 
+						In <i><b>Mech Arena</b></i>, guests stand in a cage-shaped aircraft that follows each robot. With the controlling panel on the platform, 
+						guests can make their robots attack, defend, and avoid traps on the ground.
+					</p> <!-- /.section-paragraph -->
+					
+					<p class="wow pulse animated">
+						<iframe src="https://player.vimeo.com/video/301962969" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</p>
+					<p class="section-paragraph wow pulse animated">
+						The record of gameplay.
 					</p>
 					<br></br>
 					<p class="wow pulse animated">
-						<img class="img-responsive" src="images/UIFramework/Code Structure.jpg" alt="">	
+						<img class="img-responsive" src="images/Mech Arena/sd.png" alt="">	
 					</p>
+					
 					<p class="section-paragraph wow pulse animated">
-						The main code structure in the project
+						Shaders for the robots' energy shield.
 					</p>
 					
 					<p class="wow pulse animated">
-						<img class="img-responsive" src="images/UIFramework/ClientData.lua.jpg" alt="">	
-					</p>
-					<p class="section-paragraph wow pulse animated">
-						The Data layer's hierarchy structure
+						<img class="img-responsive" src="images/Mech Arena/GameMechanism.jpg" alt="">	
 					</p>
 					
-					<p class="wow pulse animated">
-						<img class="img-responsive" src="images/UIFramework/main.lua.jpg" alt="">	
-					</p>
 					<p class="section-paragraph wow pulse animated">
-						The logic map of <i>main.lua</i> file.
+						Robot's state machine design. The <b>Attack</b> state is splitted into 3 phases: <i>before, effect</i> and <i>after</i>. The <i>before</i> phase can be canceled by players. 
+						When one player spread the energy shield, there is 0.1s time margin for "Perfect Guard". When one robot is hitted in that time margin, its opponent will get
+						damage and get into a long stun stat (see the right pipeline above). The hard thing is to map the animated shader with the timing and synchronize the animation and particle effect in both sizes. 
 					</p>
-					<br></br>
-					<p class="wow pulse animated">
-						<img class="img-responsive" src="images/UIFramework/1.png" alt="">	
-					</p>
-					<p class="section-paragraph wow pulse animated">
-						The main system design of this TCG. The whole system is seperated into two parts: Battle System and Non-battle System.
-						
-					</p>
-					
-					<br></br>
-					<p class="wow pulse animated">
-						<img class="img-responsive" src="images/UIFramework/2-2.png" alt="">
-					</p>
-					<p class="section-paragraph wow pulse animated">
-						The layout design of battle field. There is only one active monster that can attack at the same time.
-					</p>
-					
-					<br></br>
-					<p class="wow pulse animated">
-						<img class="img-responsive" src="images/UIFramework/3.png" alt="">
-					</p>
-					<p class="section-paragraph wow pulse animated">
-						The UML graph of BasePanel Class, which is the base class of other UI panels in this game.
-					</p> 
-					<p class="wow pulse animated">
-						<img class="img-responsive" src="images/UIFramework/4.png" alt="">
-					</p>
-					<p class="section-paragraph wow pulse animated">
-						The single round in battle's FSM flow graph. After one event was triggered, program will excute another check on the status.
-					</p> 
-					
-					
 					
 				</div>
             </div> <!-- /.container-fluid -->
         </section> <!-- /#about -->
 		
-
-<section class="contact" id="contact">
+        <section class="contact" id="contact">
             <div class="contact-content">
                 <div class="wrapper">
                     <div class="container">

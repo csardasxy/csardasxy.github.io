@@ -45,7 +45,7 @@
         </section> <!-- /#header -->
 		
     <!--== 6. About Us ==-->
-		<section class = "workPage">
+		<section >
 			<div class="demo-mainText">
 				<div class="demo-content">
 					<br></br><br></br><br></br>
@@ -83,7 +83,7 @@
 					<ul class="section-paragraph wow pulse animated">
 						<li>Designed and created a riding-control script on boat based on physics meterial and torque</li>
 						<li>Participated in the optimization works of environment, such as <b>static light baking</b> and <b>post proccessing configuration</b></li>
-						<li>Developed auto path adjustment mechenism for naive guests</li>
+						<li>Developed auto path adjustment mechanic for naive guests</li>
 						<li>Composed different BGMs to match different stages of the game </li>
 					</ul>
 					<br></br>
@@ -101,8 +101,24 @@
 					<p class="section-paragraph wow pulse animated">
 						The record of gameplay with naive guest.
 					</p>
+					<br></br>
+					<p class="wow pulse animated">
+						<img class="img-responsive" src="images/HUANKA/boat.png" alt="">	
+					</p>
 					
+					<p class="section-paragraph wow pulse animated">
+						Physics design of boat paddling. The points where the paddle's end enter and exit the water surface will create a vector in boat's local space.
+						Based on the vector's direction and length, we can convert them to a torque on the boat that can effect boat's velocity and direction.
+					</p>
 					
+					<p class="wow pulse animated">
+						<img class="img-responsive" src="images/HUANKA/boat2.png" alt="">	
+					</p>
+					
+					<p class="section-paragraph wow pulse animated">
+						Auto path adjustment mechanic for naive guests. I divided the path into several seperate parts, with transforms recorded. 
+						When the boat hit the edge of path, its rotation will be adjusted smoothly to the edge's rotation, which has the parallel direction.
+					</p>
 					
 				</div>
             </div> <!-- /.container-fluid -->
