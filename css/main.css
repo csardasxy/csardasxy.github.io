@@ -439,7 +439,7 @@ a.logo:hover
 	width: 97.6%;
 	background: rgba(19, 70, 121, 0.30);
 	/*background: rgba(0, 0, 0, 0.6);*/
-	opacity: 0;
+	opacity: 0.1;
 	top: 1.21%;
 	left: 1.2%;
 }
