@@ -53,7 +53,7 @@ $(document).ready(function($) {
         autoPlay: true,
 
         // "singleItem:true" is a shortcut for:
-        // items : 1,
+        // items : 1, 
         // itemsDesktop : false,
         // itemsDesktopSmall : false,
         // itemsTablet: false,
@@ -91,15 +91,8 @@ $(document).ready(function($) {
 
 	// filter items on button click
 	$('#filters').on( 'click', 'button', function() {
-	    history.pushState({}, '', changeURLArg(window.location.href,'type', $(this).text().replace(/\s/g, "")))
-	    var filterValue = $(this).attr('data-filter');
-	    $container.isotope({ filter: filterValue });
-        var workTypeBtn = $('#filters').children('.filters-button')
-        for (var i = 0; i < workTypeBtn.length; i++) {
-            var aim = $(workTypeBtn[i])
-            aim.removeClass('workTypeClass')
-        }
-        $(this).addClass('workTypeClass')
+	  var filterValue = $(this).attr('data-filter');
+	  $container.isotope({ filter: filterValue });
 	});
 
 
@@ -136,7 +129,7 @@ wow.init();
 	    });
 	});
 
-
+	
 /*=================================
 ||			Contact form
 ==================================*/

@@ -1,5 +1,5 @@
 /*=================================
-||			Index 
+||			Index
 ==================================*/
 /*
 |	1. Imports [30]
@@ -27,14 +27,14 @@
 
 
 /*=================================
-||			1. Imports 
+||			1. Imports
 ==================================*/
 @import url(http://fonts.useso.com/css?family=Raleway:400,700,300);
 @import url(http://fonts.useso.com/css?family=Roboto:300,700);
 
 
 /*=================================
-||			2. Global 
+||			2. Global
 ==================================*/
 body
 {
@@ -108,7 +108,7 @@ a:hover
 	transition: all 0.6s;
 }
 /*=================================
-||			3. Colors 
+||			3. Colors
 ==================================*/
 .custom-purple
 {
@@ -128,7 +128,7 @@ a:hover
 }
 .copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 /*=================================
-||			4. Header 
+||			4. Header
 ==================================*/
 a.logo
 {
@@ -198,7 +198,7 @@ a.logo:hover
 }
 
 /*=================================
-||			gation 
+||			gation
 ==================================*/
 .navigationbar
 {
@@ -244,7 +244,7 @@ a.logo:hover
 	min-height: 40px;
 }
 /*=================================
-||			5. Our Service 
+||			5. Our Service
 ==================================*/
 .service
 {
@@ -267,7 +267,7 @@ a.logo:hover
 	padding: 60px 20px 0px;
 	font-size: 25px;
 	font-family: 'Roboto';
-	font-weight: 400;	
+	font-weight: 400;
 }
 .service-main-content
 {
@@ -354,12 +354,12 @@ a.logo:hover
 }
 
 /*=================================
-||			6. About Us 
+||			6. About Us
 ==================================*/
 #about .container-fluid .about-table
 {
 	display: table;
-	width: 100%; 
+	width: 100%;
 }
 #about .container-fluid .about-table .about-table-cell
 {
@@ -491,6 +491,10 @@ button.active, button.filters-button:hover, button.filters-button:active, button
 {
 	color: rgb(0, 153, 204);
 	border: 1px solid rgb(0, 153, 204);
+}
+.workTypeClass {
+    color: rgb(0, 153, 204) !important;
+    border: 1px solid rgb(0, 153, 204) !important;
 }
 .works .wrapper
 {
@@ -675,7 +679,7 @@ ul.social-icons li a
 {
     color: white;
 }
-.social-icons ul li a 
+.social-icons ul li a
 {
 	color: white;
 	border-color: white;
@@ -884,7 +888,7 @@ footer a
 		font-size: 24px;
 		padding: 8px;
 		letter-spacing: 5px;
-	
+
 		margin: 0px 15px 15px;
 		line-height: 28px;
 }
@@ -909,7 +913,7 @@ footer a
 	#iconhideshow
 	{
 		margin-top: 0px;
-	
+
 		position: relative;
 		z-index: 10;
 }
@@ -926,8 +930,8 @@ footer a
 	button.filters-button{ margin: 0 10px 0 0;}
 	ul.social-icons i{
     width: 40px;
-		
-	
+
+
     height: 40px;
     font-size: 20px;
 }
@@ -949,5 +953,5 @@ ul.social-icons {
 }
 
 @media (max-width: 320px){
-	
+
 }
