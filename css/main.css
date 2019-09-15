@@ -47,7 +47,7 @@ body
 }
 .section-title
 {
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	text-transform: uppercase;
 	font-size: 45px;
 	font-weight: 300;
@@ -116,7 +116,7 @@ a:hover
 }
 .custom-white
 {
-	color: #fff;
+	color: #ffffff;
 }
 .custom-red
 {
@@ -205,7 +205,7 @@ a.logo:hover
 	font-weight: 400;
 	padding: 25px 0px;
 	background: rgb(30, 30, 30);
-	color: rgb(0, 153, 204);
+	color: rgb(255, 255, 255);
 	text-transform: uppercase;
 	min-height: 60px;
 }
@@ -217,21 +217,21 @@ a.logo:hover
 }
 .nav li.active a,.nav li.active a:hover
 {
-	background: transparent;
+	background: rgb(10, 255, 255);
 }
 .nav li
 {
-	color: rgb(0, 153, 204);
-  	border: 1px solid transparent;
+	color: rgb(255, 255, 255);
+  	border: 1px solid rgba(128, 128, 128, 0.3);
 }
 .nav li:hover
 {
-	border: 1px solid rgb(0, 153, 204);
+	border: 1px solid rgb(255, 255, 255);
 }
 .nav-pills>li>a
 {
   	border-radius: 2px;
-  	color: rgb(0, 153, 204);
+  	color: rgb(255, 255, 255);
 }
 .nav-pills>li>a:hover{
 	color: #ffffff;
@@ -358,6 +358,7 @@ a.logo:hover
 ==================================*/
 #about .container-fluid .about-table
 {
+	background: #1e1e1e;
 	display: table;
 	width: 100%;
 }
@@ -375,8 +376,10 @@ a.logo:hover
 }
 .about-content {
   /* padding-left: 94px; */
-  padding-left: 22%;
-  padding-right: 20px;
+  /*padding-left: 10%;
+  padding-right: 10%;*/
+  margin: 40px 5% ;
+  color: #ffffff;
 }
 
 /*test begin*/
@@ -384,9 +387,11 @@ a.logo:hover
 .demo-mainText{
 	margin: auto;
 	/* width: 60%; */
+	background: #ffffff;
 	max-width: 850px;
 	margin-top: 20;
 	margin-left: auto;
+	margin-bottom: 20px;
 }
 
 .demo-content{
@@ -394,6 +399,10 @@ a.logo:hover
 	width: 80%;
 }
 
+.demo-section{
+	background: #2e2e2e;
+	height: 100%;
+}
 
 .workPage
 {
@@ -401,7 +410,7 @@ a.logo:hover
 	width: 60%;
 	img-align: center;
 }
-.workPage .wrapper
+.workPage.wrapper
 {
 	padding: 0px 0px 0px;
 }
@@ -416,7 +425,7 @@ a.logo:hover
 ==================================*/
 .works
 {
-	background: #1e1e1e;
+	background: #2e2e2e;
 	margin:10px, 10px, 10px;
 }
 .works-item
@@ -435,11 +444,11 @@ a.logo:hover
 .works-single-item-hover
 {
 	position: absolute;
-	height: 97.7%;
+	height: 97.5%;
 	width: 97.6%;
-	background: rgba(19, 70, 121, 0.30);
+	background: rgba(19, 70, 121, 0.0);
 	/*background: rgba(0, 0, 0, 0.6);*/
-	opacity: 0.1;
+	opacity: 0.80;
 	top: 1.21%;
 	left: 1.2%;
 }
@@ -452,6 +461,7 @@ a.logo:hover
 {
 	opacity: 1;
 	transition: all 0.6s;
+	background: rgba(19, 70, 121, 0.30);
 	/*transform: rotateY(360deg);*/
 }
 .works-icons
@@ -480,21 +490,21 @@ button.filters-button
 	text-transform: capitalize;
 	background: rgba(8, 97, 210, 0);
 	color: #ffffff;
-	border: 1px solid #ffffff;
+	border: 1px solid rgba(128, 128, 128, 0.3);
 	outline: none;
-	margin: 25px 0px 50px;
+	margin: 20px 0px 20px;
 	padding: 5px 20px;
 	font-size: 16px;
 	font-family: 'Roboto', 'helvetica', sans-serif;
 }
 button.active, button.filters-button:hover, button.filters-button:active, button.filters-button:focus
 {
-	color: rgb(0, 153, 204);
-	border: 1px solid rgb(0, 153, 204);
+	color: #ffffff;
+	border: 1px solid #ffffff;
 }
 .workTypeClass {
-    color: rgb(0, 153, 204) !important;
-    border: 1px solid rgb(0, 153, 204) !important;
+    color: #ffffff !important;
+    border: 1px solid #ffffff !important;
 }
 .works .wrapper
 {
@@ -502,6 +512,30 @@ button.active, button.filters-button:hover, button.filters-button:active, button
 }
 .nivo-lightbox-theme-default.nivo-lightbox-overlay {
     background-color: rgba(30, 117, 189, 0.85);
+}
+
+/*test area*/
+
+button.back-button
+{
+	text-transform: capitalize;
+    position: fixed;
+	font-weight: bold;
+    background: #1e1e1e;
+	color: #ffffff;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	outline: none;
+	padding: 5px 20px;
+	font-size: 16px;
+	font-family: 'Roboto', 'helvetica', sans-serif;
+	top: 100px;
+	left: 35px;
+}
+
+button.back-button:hover, button.back-button:active, button.back-button:focus
+{
+	color: #ffffff;
+	border: 1px solid #ffffff;
 }
 
 /*=================================
@@ -635,7 +669,7 @@ button.active, button.filters-button:hover, button.filters-button:active, button
 .contact-content
 {
 
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: #1e1e1e /*rgba(255, 255, 255, 0.85);*/
 }
 .address
 {
@@ -643,13 +677,14 @@ button.active, button.filters-button:hover, button.filters-button:active, button
 }
 .address a
 {
-	color: #134679;
+	color: #ffffff;
 }
 ul.social-icons
 {
+	
 	padding: 0;
 	margin-top: 30px;
-	float: left;
+	float: middle;
 }
 ul.social-icons li
 {
@@ -659,12 +694,12 @@ ul.social-icons li
 }
 ul.social-icons i
 {
-    color: rgb(30, 117, 189);
+    color: #ffffff;
     display:block;
     width: 50px;
     height: 50px;
     padding: 9px;
-    border: 1px solid rgba(30, 117, 189, .5);
+    border: 1px solid rgba(255, 255, 255, .5);
 }
 ul.social-icons i:hover
 {
@@ -768,7 +803,7 @@ ul.social-icons li a
 }
 .top{
     display: none;
-    background: #0087d5;
+    background: #1e1e1e;
     color: #fff;
     padding: 5px 10px;
     font-size: 22px;
@@ -782,8 +817,8 @@ ul.social-icons li a
     transition: all .8s;
 }
 .top:hover{
-    background: rgb(58, 36, 52);
-    color: #fff;
+    background: #fff;
+    color: #1e1e1e;
 }
 footer
 {
