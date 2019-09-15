@@ -432,25 +432,26 @@ a.logo:hover
 {
 	width: 100%;
 	height: auto;
-	padding: 0;
+	padding: 5px;
 	margin: 0;
 }
 .works-single-item
 {
 	position: relative;
 	width: 33.3%;
-	padding: 0.4%;
 }
 .works-single-item-hover
 {
 	position: absolute;
-	height: 97.5%;
-	width: 97.6%;
+	height: auto;
+	width: auto;
 	background: rgba(19, 70, 121, 0.0);
 	/*background: rgba(0, 0, 0, 0.6);*/
 	opacity: 0.80;
-	top: 1.21%;
-	left: 1.2%;
+	top: 5px;
+	left: 5px;
+	bottom: 5px;
+	right: 5px;
 }
 .works-single-item:hover
 {
