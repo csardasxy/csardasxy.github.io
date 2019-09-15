@@ -531,7 +531,7 @@ button.back-button
 	top: 100px;
 	left: 35px;
 }
-
+ 
 button.back-button:hover, button.back-button:active, button.back-button:focus
 {
 	color: #ffffff;
