@@ -92,7 +92,7 @@ $(document).ready(function($) {
 	$container.imagesLoaded().progress( function() {
 	  $container.isotope('layout');
 	});
-
+	
 	// filter items on button click
 	$('#filters').on( 'click', 'button', function() {
 	    history.pushState({}, '', changeURLArg(window.location.href,'type', $(this).text().replace(/\s/g, "")))
