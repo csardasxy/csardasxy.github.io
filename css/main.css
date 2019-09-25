@@ -457,9 +457,10 @@ a.logo:hover
 .works-item
 {
 	width: 100%;
-	height: auto;
+	height: 450px;
 	padding: 5px;
 	margin: 0;
+	margin-bottom: 0px;
 }
 .works-single-item
 {
