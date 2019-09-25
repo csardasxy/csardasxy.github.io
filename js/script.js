@@ -88,12 +88,17 @@ $(document).ready(function($) {
 	  // options
       itemSelector: '.works-single-item'
 	});
+	
+	$container.imagesLoaded().progress( function() {
+	  $container.isotope('layout');
+	});
 
 	// filter items on button click
 	$('#filters').on( 'click', 'button', function() {
 	    history.pushState({}, '', changeURLArg(window.location.href,'type', $(this).text().replace(/\s/g, "")))
 	    var filterValue = $(this).attr('data-filter');
 	    $container.isotope({ filter: filterValue });
+		$container.isotope('layout');
         var workTypeBtn = $('#filters').children('.filters-button')
         for (var i = 0; i < workTypeBtn.length; i++) {
             var aim = $(workTypeBtn[i])
