@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="nivo-lightbox/nivo-lightbox.css">
     <link rel="stylesheet" href="nivo-lightbox/nivo-lightbox-theme.css">
     <link rel="stylesheet" href="css/main.css">
+	
+	<link rel="stylesheet" href="css/flickity.min.css">
     <style type="text/css">
     body,td,th {
 	font-family: Raleway, helvetica, sans-serif;
@@ -36,18 +38,19 @@
   <body  >
 
     <!--== 4. Header ==-->
-	
+	<a href="AllWorks.html"><button class="back-button">BACK</button></a>
+	<
         <section class="header" id="header">
             <div class="navigationbar  navbar-fixed-top">
                 <div class="container">
 				<a href="AllWorks.html"><button class="back-button">BACK</button></a>
-                    <a href="index.html#works" class="games">
+                    <a href="AllWorks.html" class="games">
                        Sun Xiangyu's Portfolio <img src="images/star-w.png"> </img>
                     </a>
                     <ul class="nav nav-pills pull-right">
                       <li role="presentation"><a href="index.html#header">Home</a></li>
                       <li role="presentation"><a href="index.html#about">About</a></li>
-                      <li role="presentation"><a href="index.html#works">My Work</a></li>
+                      <li role="presentation"><a href="AllWorks.html">My Work</a></li>
 					  <li role="presentation"><a href="https://csardasxy.wixsite.com/home">Game Blog</a></li>
 					  <li role="presentation"><a href="http://www.etc.cmu.edu/wp-content/uploads/2013/08/CV_Xiangyu-Sun.pdf">Resume</a></li>
                       <li role="presentation"><a href="index.html#contact">Contact</a></li>
@@ -69,17 +72,13 @@
 						<a href="https://csardas.itch.io/huanka"><font color = "#4A84F5" size = 4>exe file download</font></a>
 					</p><br></br>
 					-->
-					<div class = "wrapper wow pulse animated">
-						<div class="workPage-content">
-							<div id="owl-demo" class="owl-carousel owl-theme">
-								<img class="img-responsive" position = "center" src="images/Mech Arena/ma1.png" alt="">	
-								<img class="img-responsive" position = "center" src="images/Mech Arena/ma2.png" alt="">	
-								<img class="img-responsive" position = "center" src="images/Mech Arena/ma3.png" alt="">	
-								<img class="img-responsive" position = "center" src="images/Mech Arena/ma4.png" alt="">	
-							</div>
-						</div>
-					</div>
 					
+					<div class="carousel wow pulse animated" data-flickity='{ "autoPlay": true }'>
+						<img class="img-responsive" position = "center" src="images/Mech Arena/ma1.png" size = "auto" alt="">	
+						<img class="img-responsive" position = "center" src="images/Mech Arena/ma2.png" size = "auto" alt="">	
+						<img class="img-responsive" position = "center" src="images/Mech Arena/ma3.png" size = "auto" alt="">	
+						<img class="img-responsive" position = "center" src="images/Mech Arena/ma4.png" size = "auto" alt="">
+					</div>
 					
 					<p class="section-title-s bounceInRight animated">
 						Development
@@ -184,6 +183,8 @@
     <script src="js/jquery.validate.js"></script>
     <script src="nivo-lightbox/nivo-lightbox.min.js"></script>
     <script src="js/script.js"></script>
+	
+	<script src="js/flickity.pkgd.min.js"></script>
 
   </body>
 </html>
