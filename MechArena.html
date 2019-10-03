@@ -105,33 +105,31 @@
 					</ul>
 					<br></br>
 					
-					<p class="section-paragraph wow pulse animated">
+					<p class="section-paragraph ">
 						<i><b>Mech Arena</b></i> is a game developed by Unity3d & C# on Oculus Rift platform. 
 						<br></br>
 						In <i><b>Mech Arena</b></i>, guests stand in a cage-shaped aircraft that follows each robot. With the controlling panel on the platform, 
 						guests can make their robots attack, defend, and avoid traps on the ground.
 					</p> <!-- /.section-paragraph -->
 					
-					<p class="wow pulse animated">
-						<iframe src="https://player.vimeo.com/video/301962969" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-					</p>
-					<p class="section-paragraph wow pulse animated">
+					<br></br>
+
+					<iframe src="https://player.vimeo.com/video/301962969" width="100%" height="360" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					
+					<p class="section-paragraph ">
 						The record of gameplay.
 					</p>
-					<br></br>
-					<p class="wow pulse animated">
-						<img class="img-responsive" src="images/Mech Arena/sd.png" alt="">	
-					</p>
 					
-					<p class="section-paragraph wow pulse animated">
+					<br></br>
+					<img class="img-responsive" src="images/Mech Arena/sd.png" alt="">	
+					
+					<p class="section-paragraph ">
 						Shaders for the robots' energy shield.
 					</p>
 					
-					<p class="wow pulse animated">
-						<img class="img-responsive" src="images/Mech Arena/GameMechanism.jpg" alt="">	
-					</p>
+					<img class="img-responsive" src="images/Mech Arena/GameMechanism.jpg" alt="">	
 					
-					<p class="section-paragraph wow pulse animated">
+					<p class="section-paragraph ">
 						Robot's state machine design. The <b>Attack</b> state is splitted into 3 phases: <i>before, effect</i> and <i>after</i>. The <i>before</i> phase can be canceled by players. 
 						When one player spread the energy shield, there is 0.1s time margin for "Perfect Guard". When one robot is hitted in that time margin, its opponent will get
 						damage and get into a long stun stat (see the right pipeline above). The hard thing is to map the animated shader with the timing and synchronize the animation and particle effect in both sizes. 
